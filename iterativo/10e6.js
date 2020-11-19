@@ -1,0 +1,7 @@
+console.time('segundos');
+let ran;
+for (let i = 0; i <= Number(10e6); i++) {
+  ran += Math.floor(Math.random() * (9999 - 1)) + 1 + '\n';
+}
+console.log(ran);
+console.timeEnd('segundos');
